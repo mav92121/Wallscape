@@ -1,3 +1,12 @@
+/*
+* @author  Aryan Bhavsar
+* @institute  Ahmedabad University
+* @contact aryan.b@ahduni.edu.in
+
+Statrt-date : 22 July 2023
+
+*/
+
 .App {
   text-align: center;
 }
@@ -32,7 +41,401 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 72px;
+  border-bottom: 2px solid #EBEBEB;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+}
+
+.logo {
+  display: flex;
+  margin-left: 71px;
+  align-content: center;
+}
+
+.logo img {
+  height: 32px;
+  width: 96px;
+  display: inline-block;
+  align-self: center;
+}
+
+.search {
+  margin-left: auto;
+  align-self: center;
+  height: 40px;
+  width: 284px;
+  border: 2px solid #EBEBEB;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.search img {
+  height: 20px;
+  margin: 0 16px;
+}
+
+.search input {
+  line-height: 24px;
+  width: 216px;
+  border: 0;
+  color: #B0B0B0;
+  outline: none;
+}
+
+.create-new-board-button {
+
+  margin-left: 80px;
+  margin-right: 34px;
+  background-color: #D33852;
+  color: white;
+  height: 40px;
+  width: 188px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+.create-new-board-button img {
+  width: 17px;
+  height: 17px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.board-heading {
+  margin-top: 41px;
+  margin-left: 71px;
+}
+
+.boards {
+  margin-left: 71px;
+  margin-top: 32px;
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board {
+  cursor: pointer;
+  height: 80px;
+  width: 364px;
+  border: 2px solid #EBEBEB;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  margin-bottom: 32px;
+
+}
+
+.color {
+  height: 100%;
+  background-color: #CAF8FF;
+  width: 80px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+.title {
+  margin-left: 24px;
+  margin-bottom: 0;
+}
+
+.option-icon {
+  margin-left: auto;
+  margin-right: 15px;
+  cursor: pointer;
+  border-radius: 47px;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+}
+
+.option-icon:hover {
+  background-color: #e9e7e7;
+}
+
+.option-icon img {
+  height: 16px;
+  width: 16px;
+}
+
+#modal-form-button {
+  background-color: #D33852;
+  border: 0;
+}
+
+.modal-content {
+  width: 458px;
+  height: 364px;
+}
+
+#staticBackdropLabel {
+  font-weight: 800;
+}
+
+#modal-header {
+  border-bottom: 0;
+}
+
+#modal-footer {
+  border-top: 0;
+}
+
+.modal-form-input {
+  outline: none;
+  border-radius: 4px;
+  border: 2px solid #DBDBDB;
+  height: 48px;
+  width: 100%;
+  margin-left: auto;
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+#colour-heading {
+  font-weight: 800;
+  margin-bottom: 0;
+  line-height: 28px;
+}
+
+#colour-helper {
+  line-height: 20px;
+}
+
+.color-picker {
+  margin-top: 16px;
+  display: flex;
+}
+
+input[type="radio"] {
+  display: none;
+  /* Hide the default radio button */
+}
+
+label {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  /* To make the label a circle */
+  margin-right: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  /* Add a border to create a border effect on hover/focus */
+}
+
+input[type="radio"]:checked+label {
+  border-color: #23856D;
+  /* Change the border color when the radio button is checked */
+}
+
+#dropdown-menu {
+  border-radius: 8px;
+  border: 1px solid var(--border-border-subtle, #EBEBEB);
+  background: var(--surface-white-surface-white, #FFF);
+  box-shadow: 0px 5px 10px 0px rgba(0, 46, 57, 0.15);
+}
+
+#dropdown-item {
+  display: flex;
+  align-items: center;
+}
+
+#dropdown-item-text {
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+#delete {
+  display: flex;
+  align-items: center;
+  display: inline-block;
+  height: 16px;
+  width: 18px;
+}
+
+#edit {
+  height: 20px;
+  width: 19px;
+}
+
+.delete-text {
+  color: #D33852;
+}
+
+.edit-text {
+  color: #717171;
+}
+
+
+/*--------------CSS For Routed Screen----------------*/
+.logo-page-2 {
+  display: flex;
+  align-items: center;
+}
+
+.logo-page-2 img {
+  height: 52px;
+  width: 48px;
+}
+
+.left-arrow {
+  display: flex;
+  align-items: center;
+  margin-left: 28px;
+  margin-right: 9px;
+}
+
+.left-arrow img {
+  height: 20px;
+  width: 16px;
+}
+
+.board-name {
+  align-self: center;
+  font-weight: 800;
+  margin-left: 17px;
+}
+
+.control-access {
+  align-self: center;
+  margin-left: auto;
+  margin-right: 30px;
+  display: flex;
+}
+
+#control-search {
+  height: 20px;
+  cursor: pointer;
+}
+
+#control-bookmark {
+  height: 20px;
+  cursor: pointer;
+}
+
+.pipe {
+  color: #717171;
+  align-self: center;
+  margin: 0 24px;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.button-container {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  background-color: #caf8ff;
+
+}
+
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #caf8ff;
+  padding: 0 80px;
+  height: 120vh;
+}
+
+.post {
+  width: 275px;
+  height: 600px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 16px;
+  margin-right: 20px;
+}
+
+.post-title {
+  line-height: 24px;
+  font-weight: 900;
+  width: 200px;
+  margin-right: 16px;
+  display: inline-block;
+}
+.post-header{
+  display: flex;
+}
+.bookmark-post{
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.bookmark-post img{
+  height: 25px
+}
+
+.post-menu-bar{
+  display: flex;
+  align-items: flex-start;
+}
+
+.post-menu-bar .option-icon{
+  align-items: flex-start;
+  padding-top: 4px;
+}
+.date{
+  color: #B0B0B0;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.cover-img img{
+  width: 100%;
+  height: 165px;
+  border-radius: 8px;
+}
+.cover-img{
+  margin-bottom: 8px;
+}
+.post-description{
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.like{
+  display: flex;
+  align-items: flex-end;
+  border-top: 1px solid #B0B0B0;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+}
+
+.like img{
+  height: 20px;
+}
+.like-count{
+  display: inline-block;
+  color: #B0B0B0;
+  font-size: 20px;
+  margin-left: 5px;
+}
+#board-title-linked-to-route{
+  text-decoration: none;
+  color: black;
 }
