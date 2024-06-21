@@ -8,12 +8,11 @@ Statrt-date : 22 July 2023
 */
 
 function Navbar(prop) {
-
   const searchQuery = prop.searchQuery;
   const setSearchQuery = prop.setSearchQuery;
 
-  function handleChange(event){
-    setSearchQuery(event.target.value.toLowerCase())
+  function handleChange(event) {
+    setSearchQuery(event.target.value.toLowerCase());
     console.log(searchQuery);
   }
 
@@ -26,15 +25,19 @@ function Navbar(prop) {
       <div className="search">
         <img src="search_icon.png" alt="" />
         <input
-        type="text" 
-        className="search-bar" 
-        placeholder="Search.." 
-        onChange={handleChange}
-        value={searchQuery}
+          type="text"
+          className="search-bar"
+          placeholder="Search.."
+          onChange={handleChange}
+          value={searchQuery}
         />
       </div>
 
-      <div className="create-new-board-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <div
+        className="create-new-board-button"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+      >
         <img src="add.png" alt="" />
         <span className="button-text">Create new board</span>
       </div>
@@ -42,6 +45,4 @@ function Navbar(prop) {
   );
 }
 
-export default Navbar
-
-// 
+export default Navbar;

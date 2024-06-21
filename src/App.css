@@ -54,7 +54,7 @@ Statrt-date : 22 July 2023
 
 .navbar {
   height: 72px;
-  border-bottom: 2px solid #EBEBEB;
+  border-bottom: 2px solid #ebebeb;
   display: flex;
   align-content: center;
   flex-direction: row;
@@ -78,7 +78,7 @@ Statrt-date : 22 July 2023
   align-self: center;
   height: 40px;
   width: 284px;
-  border: 2px solid #EBEBEB;
+  border: 2px solid #ebebeb;
   border-radius: 6px;
   display: flex;
   align-items: center;
@@ -93,15 +93,14 @@ Statrt-date : 22 July 2023
   line-height: 24px;
   width: 216px;
   border: 0;
-  color: #B0B0B0;
+  color: #b0b0b0;
   outline: none;
 }
 
 .create-new-board-button {
-
   margin-left: 80px;
   margin-right: 34px;
-  background-color: #D33852;
+  background-color: #d33852;
   color: white;
   height: 40px;
   width: 188px;
@@ -136,18 +135,17 @@ Statrt-date : 22 July 2023
   cursor: pointer;
   height: 80px;
   width: 364px;
-  border: 2px solid #EBEBEB;
+  border: 2px solid #ebebeb;
   border-radius: 16px;
   display: flex;
   align-items: center;
   margin-right: 32px;
   margin-bottom: 32px;
-
 }
 
 .color {
   height: 100%;
-  background-color: #CAF8FF;
+  background-color: #caf8ff;
   width: 80px;
   border-top-left-radius: 14px;
   border-bottom-left-radius: 14px;
@@ -181,7 +179,7 @@ Statrt-date : 22 July 2023
 }
 
 #modal-form-button {
-  background-color: #D33852;
+  background-color: #d33852;
   border: 0;
 }
 
@@ -205,7 +203,7 @@ Statrt-date : 22 July 2023
 .modal-form-input {
   outline: none;
   border-radius: 4px;
-  border: 2px solid #DBDBDB;
+  border: 2px solid #dbdbdb;
   height: 48px;
   width: 100%;
   margin-left: auto;
@@ -244,15 +242,15 @@ label {
   /* Add a border to create a border effect on hover/focus */
 }
 
-input[type="radio"]:checked+label {
-  border-color: #23856D;
+input[type="radio"]:checked + label {
+  border-color: #23856d;
   /* Change the border color when the radio button is checked */
 }
 
 #dropdown-menu {
   border-radius: 8px;
-  border: 1px solid var(--border-border-subtle, #EBEBEB);
-  background: var(--surface-white-surface-white, #FFF);
+  border: 1px solid var(--border-border-subtle, #ebebeb);
+  background: var(--surface-white-surface-white, #fff);
   box-shadow: 0px 5px 10px 0px rgba(0, 46, 57, 0.15);
 }
 
@@ -280,13 +278,12 @@ input[type="radio"]:checked+label {
 }
 
 .delete-text {
-  color: #D33852;
+  color: #d33852;
 }
 
 .edit-text {
   color: #717171;
 }
-
 
 /*--------------CSS For Routed Screen----------------*/
 .logo-page-2 {
@@ -349,7 +346,6 @@ input[type="radio"]:checked+label {
   justify-content: flex-end;
   cursor: pointer;
   background-color: #caf8ff;
-
 }
 
 .post-container {
@@ -376,66 +372,66 @@ input[type="radio"]:checked+label {
   margin-right: 16px;
   display: inline-block;
 }
-.post-header{
+.post-header {
   display: flex;
 }
-.bookmark-post{
+.bookmark-post {
   margin-right: 6px;
   cursor: pointer;
 }
 
-.bookmark-post img{
-  height: 25px
+.bookmark-post img {
+  height: 25px;
 }
 
-.post-menu-bar{
+.post-menu-bar {
   display: flex;
   align-items: flex-start;
 }
 
-.post-menu-bar .option-icon{
+.post-menu-bar .option-icon {
   align-items: flex-start;
   padding-top: 4px;
 }
-.date{
-  color: #B0B0B0;
+.date {
+  color: #b0b0b0;
   font-size: 14px;
   display: inline-block;
   margin-bottom: 4px;
 }
-.cover-img img{
+.cover-img img {
   width: 100%;
   height: 165px;
   border-radius: 8px;
 }
-.cover-img{
+.cover-img {
   margin-bottom: 8px;
 }
-.post-description{
+.post-description {
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 12px;
 }
 
-.like{
+.like {
   display: flex;
   align-items: flex-end;
-  border-top: 1px solid #B0B0B0;
+  border-top: 1px solid #b0b0b0;
   align-items: center;
   height: 50px;
   cursor: pointer;
 }
 
-.like img{
+.like img {
   height: 20px;
 }
-.like-count{
+.like-count {
   display: inline-block;
-  color: #B0B0B0;
+  color: #b0b0b0;
   font-size: 20px;
   margin-left: 5px;
 }
-#board-title-linked-to-route{
+#board-title-linked-to-route {
   text-decoration: none;
   color: black;
 }
